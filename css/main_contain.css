@@ -1,0 +1,633 @@
+.logotypchik{
+	border: 0;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-image: url('../responsive_img/logo_assortiment.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logotypchik_engl{
+	border: 0;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-image: url('../responsive_img/logo_assortiment_eng.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logotypchik_tr{
+	border: 0;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-image: url('../responsive_img/logo_assortiment_tureckiy.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main_contain{
+	width: 100%;
+	height: 4800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: white
+}
+	.assortimentik{
+		border: 0;
+		width: 100%;
+		height: 600px;
+	}
+		#first{
+			height: 400px;
+		}
+		#second{
+			height: 680px;
+		}
+		#third{
+			height: 400px;
+		}
+		#forth{
+			height: 680px;
+		}
+		#fifth{
+			height: 400px;
+		}
+		#sixth{
+			height: 680px;
+		}
+		#seventh{
+			height: 680px;
+		}
+		#eight{
+			height: 680px;
+		}
+		.title_for_bludo{
+			border:0;
+			width: 100%;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 170%;
+			font-weight: bolder;
+			color: #B22222;
+		}
+		.for_bludo{
+			border: 0;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+			.bludo_glavnyi{
+				border: 0;
+				width: 250px;
+				height: 250px;
+			}
+				.bludo_kartina{
+					border: 0;
+					width: 250px;
+					height: 180px;
+				}
+				.bludo_imya{
+					border: 0;
+					width: 250px;
+					height: 70px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 130%;
+					font-weight: bolder;
+					color: #B22222;
+				}
+	#zavtrak_fotka_1{
+		background-image: url('../menu_img_second/zavtrak/omlet.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-transition: background-size 1s; 
+    	transition: background-size 1s;
+	}
+		#zavtrak_fotka_1:hover{
+			background-size: 180%;
+		}
+	#zavtrak_fotka_2{
+		background-image: url('../menu_img_second/zavtrak/yaica_ovoshi.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-transition: background-size 1s;
+		transition: background-size 1s;
+	}
+		#zavtrak_fotka_2:hover{
+			background-size: 180%;
+		}
+	#zavtrak_fotka_3{
+		background-image: url('../menu_img_second/zavtrak/yaica_kolbasa.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-transition: background-size 1s;
+		transition: background-size 1s;
+	}
+		#zavtrak_fotka_3:hover{
+			background-size: 180%;
+		}
+	#zavtrak_fotka_4{
+		background-image: url('../menu_img_second/zavtrak/tureckiy_zavtrak.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-transition: background-size 1s;
+		transition: background-size 1s;
+	}
+		#zavtrak_fotka_4:hover{
+			background-size: 180%;
+		}
+#salat_fotka_1{
+	background-image: url('../menu_img_second/salatasi/ezme.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_1:hover{
+		background-size: 180%;
+	}
+#salat_fotka_2{
+	background-image: url('../menu_img_second/salatasi/olivie.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_2:hover{
+		background-size: 180%;
+	}
+#salat_fotka_3{
+	background-image: url('../menu_img_second/salatasi/salat_baklajan.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_3:hover{
+		background-size: 180%;
+	}
+#salat_fotka_4{
+	background-image: url('../menu_img_second/salatasi/salat_gribi.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_4:hover{
+		background-size: 180%;
+	}
+#salat_fotka_5{
+	background-image: url('../menu_img_second/salatasi/salat_jajik.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_5:hover{
+		background-size: 180%;
+	}
+#salat_fotka_6{
+	background-image: url('../menu_img_second/salatasi/salat_kasik.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_6:hover{
+		background-size: 180%;
+	}
+#salat_fotka_7{
+	background-image: url('../menu_img_second/salatasi/salat_syr.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_7:hover{
+		background-size: 180%;
+	}
+#salat_fotka_8{
+	background-image: url('../menu_img_second/salatasi/svejiy_salat.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#salat_fotka_8:hover{
+		background-size: 180%;
+	}
+
+#supi_fotka_1{
+	background-image: url('../menu_img_second/sup/merjimek.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#supi_fotka_1:hover{
+		background-size: 180%;
+	}
+#supi_fotka_2{
+	background-image: url('../menu_img_second/sup/yayla.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#supi_fotka_2:hover{
+		background-size: 180%;
+	}
+#supi_fotka_3{
+	background-image: url('../menu_img_second/sup/kuriniy.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#supi_fotka_3:hover{
+		background-size: 180%;
+	}
+#supi_fotka_4{
+	background-image: url('../menu_img_second/sup/myasnoy.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#supi_fotka_4:hover{
+		background-size: 180%;
+	}
+
+#baranina_fotka_1{
+	background-image: url('../menu_img_second/baranina/baranina_tandir.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_1:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_2{
+	background-image: url('../menu_img_second/baranina/sac_kavurma.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_2:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_3{
+	background-image: url('../menu_img_second/baranina/shpinat_farsh.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_3:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_4{
+	background-image: url('../menu_img_second/baranina/baraniy_rebrijki.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_4:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_5{
+	background-image: url('../menu_img_second/baranina/myaso_grib.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_5:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_6{
+	background-image: url('../menu_img_second/baranina/tas_kebab.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_6:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_7{
+	background-image: url('../menu_img_second/baranina/kebab_baklajan.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_7:hover{
+		background-size: 180%;
+	}
+#baranina_fotka_8{
+	background-image: url('../menu_img_second/baranina/imam_bayildi.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#baranina_fotka_8:hover{
+		background-size: 180%;
+	}
+
+#doner_fotka_1{
+	background-image: url('../menu_img_second/doner/doner_plov.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#doner_fotka_1:hover{
+		background-size: 180%;
+	}
+#doner_fotka_2{
+	background-image: url('../menu_img_second/doner/iskender_kebab.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#doner_fotka_2:hover{
+		background-size: 180%;
+	}
+#doner_fotka_3{
+	background-image: url('../menu_img_second/doner/arabskiy_shaurma.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#doner_fotka_3:hover{
+		background-size: 180%;
+	}
+#doner_fotka_4{
+	background-image: url('../menu_img_second/doner/doner_durumu.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#doner_fotka_4:hover{
+		background-size: 180%;
+	}
+
+
+#gril_fotka_1{
+	background-image: url('../menu_img_second/gril/adana_kebab.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_1:hover{
+		background-size: 180%;
+	}
+#gril_fotka_2{
+	background-image: url('../menu_img_second/gril/urfa_kebab.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_2:hover{
+		background-size: 180%;
+	}
+#gril_fotka_3{
+	background-image: url('../menu_img_second/gril/adana_durum.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_3:hover{
+		background-size: 180%;
+	}
+#gril_fotka_4{
+	background-image: url('../menu_img_second/gril/kotleti_gril.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_4:hover{
+		background-size: 180%;
+	}
+#gril_fotka_5{
+	background-image: url('../menu_img_second/gril/krilishki_gril.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_5:hover{
+		background-size: 180%;
+	}
+#gril_fotka_6{
+	background-image: url('../menu_img_second/gril/shashlik_kurica.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_6:hover{
+		background-size: 180%;
+	}
+#gril_fotka_7{
+	background-image: url('../menu_img_second/gril/shashlik_baranina.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_7:hover{
+		background-size: 180%;
+	}
+#gril_fotka_8{
+	background-image: url('../menu_img_second/gril/baraniy_rebrijki.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#gril_fotka_8:hover{
+		background-size: 180%;
+	}
+
+#pide_fotka_1{
+	background-image: url('../menu_img_second/pide/pide_myaso.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_1:hover{
+		background-size: 180%;
+	}
+#pide_fotka_2{
+	background-image: url('../menu_img_second/pide/pide_syr.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_2:hover{
+		background-size: 180%;
+	}
+#pide_fotka_3{
+	background-image: url('../menu_img_second/pide/kurbasili_pide.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_3:hover{
+		background-size: 180%;
+	}
+#pide_fotka_4{
+	background-image: url('../menu_img_second/pide/pide_assorti.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_4:hover{
+		background-size: 180%;
+	}
+#pide_fotka_5{
+	background-image: url('../menu_img_second/pide/lahmjun.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_5:hover{
+		background-size: 180%;
+	}	
+#pide_fotka_6{
+	background-image: url('../menu_img_second/pide/lavas.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#pide_fotka_6:hover{
+		background-size: 180%;
+	}
+
+#desert_fotka_1{
+	background-image: url('../menu_img_second/desert/kadayif.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#desert_fotka_1:hover{
+		background-size: 180%;
+	}
+#desert_fotka_2{
+	background-image: url('../menu_img_second/desert/baklava.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#desert_fotka_2:hover{
+		background-size: 180%;
+	}
+#desert_fotka_3{
+	background-image: url('../menu_img_second/desert/molochno_rys_pudding.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#desert_fotka_3:hover{
+		background-size: 180%;
+	}
+#desert_fotka_4{
+	background-image: url('../menu_img_second/desert/tykva_sirop.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#desert_fotka_4:hover{
+		background-size: 180%;
+	}
+#desert_fotka_5{
+	background-image: url('../menu_img_second/desert/morojennoe.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: background-size 1s;
+	transition: background-size 1s;
+}
+	#desert_fotka_5:hover{
+		background-size: 180%;
+	}

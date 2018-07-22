@@ -1,0 +1,212 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* IPAD Pro */
+@media only screen and (max-width : 1024px) {
+	.main_content_about {
+		background-image: url('../img/about/ipad_pro.jpg');
+	}
+	.box_blog_about {
+		margin-top: 220px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_menu ul li.language {
+		display: block;
+		font-family: Tahoma;
+	}
+
+	.search_header {
+		display: none;
+	}
+
+	.header_topline {
+		display: none;
+		font-weight: bold;
+	}
+
+	.main_menu ul {
+		display: none;
+		background: #f2f2f2;
+		margin-top: 10px;
+		padding: 0;
+		background: #f4f4f4;
+	}
+ 
+	.main_menu ul li {
+		position: relative;
+		width: 100%;
+		float: right;
+		padding: 0;
+		display: block;
+	}
+ 
+	.main_menu ul li a {
+		border-bottom: 1px solid rgba(175, 168, 246, 0.1);
+	}
+ 
+	.main_menu li {
+		display: block;
+	}
+ 
+	.main_menu a {
+		padding: 10px 20px;
+		color: #828282;
+	}
+ 
+	.main_menu a:hover {
+		background: #E7E7E7;
+	}
+ 
+	.main_menu .sub_menu {
+		position: relative;
+		float: right;
+		width: 100%;
+		display: block !important;
+		box-shadow: none;
+		background: none;
+		margin: 0;
+		padding: 0;
+		padding-left: 30px;
+	}
+ 
+	.main_menu .sub_menu li {
+		width: 100%;
+		border: 0;
+		padding: 0;
+	} 
+ 
+	.main_menu .sub_menu li a {
+		color: #828282;
+	}
+
+	.carousel-caption p {
+		font-size: 35px;
+		margin-left: -40px;
+	}
+ 	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+	.carousel-caption p {
+		margin-top: -80px;
+		margin-left: 2px;
+	}
+
+	.wow_text {
+		margin-left: 20px;
+	}
+
+	.welcome {
+		margin-bottom: 50px;
+	}
+
+	.welcome_img {
+		margin-bottom: 10px;
+	}
+	.name h3 {
+		display: none;
+	}
+	.name h4 {
+		display: block;
+	}
+	.assortiment {
+		background: none;
+		margin-top: 10px;
+	}
+	#food {
+		margin-top: 0px;
+	}
+	.img-thumbnail {
+		margin-bottom: 10px;
+	}
+	#dobro {
+		font-size: 30px;
+	}
+	#telephone {
+		display: block;
+	}
+	.img-thumbnail {
+		display: none;
+	}
+	.kartinki {
+		margin: 0;
+		padding: 0;
+	}
+	#vefa_for_telephone {
+		display: block;
+	}
+	#vefa_for_comp {
+		display: none;
+	}
+
+	.uslugy img {
+		display: none;
+	}
+
+	.uslugy_wrapper {
+		padding-left: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.headhesive--stick {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 767px) {
+	.img-rounded {
+		display: none;
+	}
+
+	.img-thumbnail {
+		display: block;
+	}
+	#vefa_for_telephone {
+		display: none;
+	}
+	#vefa_for_comp {
+		display: block;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.main_menu ul {
+		display: block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

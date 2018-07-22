@@ -1,0 +1,119 @@
+@media only screen and (max-width :1000px) {
+	.main_contain{
+		height: 7080px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.title_for_bludo{
+		background-color: #B22222;
+		color: white;
+		font-weight: normal;
+	}
+	#first{
+		height: 600px;
+	}
+	.for_bludo{
+		height: 550px;
+	}
+	#second{
+		height: 1150px;
+	}
+	#responsive_salat{
+		height: 550px;
+	}
+	#third{
+		height: 600px;
+	}
+	#forth{
+		height: 1150px;
+	}
+	#responsive_baranina{
+		height: 550px;
+	}
+	#fifth{
+		height: 600px;
+	}
+	#responsive_doner{
+		height: 550px;
+	}
+	#sixth{
+		height: 1150px;
+	}
+	#responsive_gril{
+		height: 550px;
+	}
+	#seventh{
+		height: 900px;
+	}
+	#responsive_pide{
+		height: 550px;
+	}
+	#responsive_pide_2{
+		height: 300px;
+	}
+	#eight{
+		height: 930px;
+	}
+	#responsive_desert{
+		height: 550px;
+	}
+	#responsive_deser_2{
+		height: 300px;
+	}
+}
+@media only screen and (max-width :520px){
+	.main_contain{
+		height: 12950px;
+	}
+		#first{
+			height: 1152px;
+		}
+		.for_bludo{
+			height: 1100px;
+		}
+		#second{
+			height: 2213px;
+		}
+		#responsive_salat{
+			height: 1080px;
+		}
+		#third{
+			height: 1152px;
+		}
+		#forth{
+			height: 2153px;
+		}
+		#responsive_baranina{
+			height: 1050px;
+		}
+		#fifth{
+			height: 1100px;
+		}
+		#responsive_doner{
+			height: 1050px;
+		}
+		#sixth{
+			height: 2153px;
+		}
+		#responsive_gril{
+			height: 1050px;
+		}
+		#seventh{
+			height: 1630px;
+		}
+		#responsive_pide{
+			height: 1050px;
+		}
+		#responsive_pide_2{
+			height: 530px;
+		}
+		#eight{
+			height: 1395px;
+		}
+		#responsive_desert{
+			height: 1060px;
+		}
+		#responsive_deser_2{
+			height: 280px;
+		}
+}
